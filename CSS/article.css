@@ -1,6 +1,5 @@
-
-@import url('https://fonts.googleapis.com/css?family=Amiri&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Coda+Caption:800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC|Playfair+Display&display=swap');
 
 html {
   font-size: 1rem;
@@ -12,32 +11,8 @@ html {
 
     body {
         padding:5rem 0;
-
-      animation: colorchange 30s infinite; /* animation-name followed by duration in seconds*/
-         /* you could also use milliseconds (ms) or something like 2.5s */
-      -webkit-animation: colorchange 30s infinite; /* Chrome and Safari */
-    }
-
-    @keyframes colorchange
-    {
-      0%   {background: #d3beaa;}
-      25%  {background: #c59eb3;}
-      50%  {background: #b7a68e;}
-      75%  {background: #9f9189;}
-      100% {background: #c2b2ae;}
-    }
-
-    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
-    {
-      0%   {background: #d3beaa;}
-      25%  {background: #c59eb3;}
-      50%  {background: #b7a68e;}
-      75%  {background: #9f9189;}
-      100% {background: #c2b2ae;}
-    }
-
-
-
+        background-color: beige;
+      }
 
 a {
   text-decoration: none;
@@ -45,7 +20,7 @@ a {
 
 p {
   font-size: 1rem;
-  font-family: 'Amiri', serif;
+  font-family: 'Playfair Display', serif;
   line-height: 1.5;
   margin-bottom:1rem;
 
@@ -68,11 +43,13 @@ article {
 
 
 .main-headline {
-  grid-column:2 / 5;
+font-family: 'Coda Caption', sans-serif;
+  grid-column:1 / 5;
   grid-row:1;
   padding: 3rem 0;
-  color:#fff;
+  color:black;
   line-height:1.5;
+  text-shadow: 2px 2px white;
 }
 
 .lead-image {
@@ -83,8 +60,8 @@ article {
 }
 
 .subhead-module {
-  grid-column:2 / 7;
-  grid-row:2;
+  grid-column:1 / 7;
+  grid-row:1;
 justify-content: start;
 }
 
@@ -101,7 +78,7 @@ justify-content: start;
 }
 
 .byline {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
     font-size:1rem;
     font-weight:800;
     padding: 0;
