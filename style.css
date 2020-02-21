@@ -25,7 +25,7 @@ h3 {
 	 font-size: 2rem;
 }
 .section {
-	background-color: pink;
+	background-color: #FFFECB;
 	color: black;
 	width: 15em;
 	height: 15em;
@@ -34,16 +34,17 @@ h3 {
 	display:inline-flex;
 	align-items:center;
 	justify-content:center;
+	border-radius: 25px;
 }
 .section:hover{
-	background-color: blue;
+	background-color: #DDCAF4;
 	color: white;
 }
 .section2 h1 {
 	text-decoration: none;
 }
 .section2 {
-	background-color: blue;
+	background-color: #DDCAF4;
 	color: white;
 	width: 15em;
 	height: 15em;
@@ -52,9 +53,10 @@ h3 {
 	display:inline-flex;
 	align-items:center;
 	justify-content:center;
+	border-radius: 25px;
 }
 .section2:hover{
-	background-color: pink;
+	background-color: #FFFECB;
 	color: black;
 }
 .section2 h1 {
