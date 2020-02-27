@@ -10,7 +10,12 @@ body, html {
 	align-items:center;
 	justify-content:center;
 }
-
+#ds-container {
+  display:grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-auto-rows:min-content;
+  grid-gap:2rem;
+}
 @keyframes moveText {
   0% {
     transform: translateX(770px)
@@ -36,7 +41,10 @@ a { text-decoration: none;
 }
 .rotate {
 	 transform: rotate(-90deg);
+	 position: left;
+
 }
+
 
 h2 {
 	   font-family: 'Playfair-Display', serif;
@@ -55,7 +63,8 @@ h4 {
 font-family: 'Playfair-Display', serif;
 	font-size:3.157em;
 	color: #DDCAF4;
-	margin:top;
+	margin:left;
+	position: left;
 }
 .section {
 	background-color: #FFFECB;
