@@ -231,7 +231,7 @@ p, li {
   padding:1.5rem 1rem;
   color:white;
   font-family: 'Lato', sans-serif;
-    border-bottom-left-radius: 25px;
+  border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
 }
 
@@ -264,8 +264,7 @@ p, li {
   padding:.5rem 1rem;
   color:#ffffff;
   font-family: 'Lato', sans-serif;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
+
 }
 
 .accent-hue > div {
