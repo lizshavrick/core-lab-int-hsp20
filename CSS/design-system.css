@@ -231,6 +231,8 @@ p, li {
   padding:1.5rem 1rem;
   color:white;
   font-family: 'Lato', sans-serif;
+    border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 
 .secondary-hue > div {
