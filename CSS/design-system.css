@@ -10,7 +10,7 @@ html {
 
     body {
         padding:5rem 0;
-        background-color: #FFFECB;
+        background-color: #dcf2ce;
       }
 
 a {
@@ -23,7 +23,7 @@ main {
 }
 @keyframes moveText {
   0% {
-    transform: translateX(450px)
+    transform: translateX(386px)
   }
   100%{
     transform: translateX(-10px);
@@ -69,7 +69,7 @@ main {
 
     margin-bottom: 10em;
     margin-top: 4em;
-      background-color: white;
+      background-color: #fafff7;
       padding: 2em;
       border-radius: 25px;
 }
@@ -83,7 +83,7 @@ main {
 
 
 section {
-  background:#fff;
+  background:#fafff7;
 
   padding:3rem;
   margin-bottom:4rem;
@@ -95,7 +95,7 @@ section {
     grid-column: 1 / 4;
     margin-bottom: 4em;
     margin-top: 2em;
-      background-color: white;
+      background-color: #fafff7;
       padding: 2em;
       padding-left: 5em;
       padding-right: 5em;
@@ -134,7 +134,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight:700;
   line-height:1;
   margin-bottom:1.25rem;
-  color: #DDCAF4;
+  color: #86b06b;
 
 }
 
@@ -170,7 +170,7 @@ h5 {
 }
 h6 {
   font-size:1.777em;
-  color:#0F0B4B;
+  color:#245708;
 }
 
 
@@ -183,7 +183,7 @@ p, li {
 }
 
 .section-label {
-  text-transform: uppercase;
+
   font-weight:700;
 
 }

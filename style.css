@@ -10,6 +10,20 @@ body, html {
 	align-items:center;
 	justify-content:center;
 }
+#layout {
+  display:grid;
+  grid-template-columns:1fr 9fr;
+  grid-auto-rows:min-content;
+  grid-gap:2rem;
+}
+
+.myname {
+grid-column: 1 / 2;
+}
+.boxes {
+grid-column: 2 / 3;
+}
+
 #ds-container {
   display:grid;
   grid-template-columns: repeat(10, 1fr);
@@ -32,16 +46,14 @@ body, html {
   animation-direction: alternate;
 
 }
-.centered {
-	max-width: 80%;
-	margin-bottom: 15px;
-}
+
 a { text-decoration: none;
 
 }
 .rotate {
 	 transform: rotate(-90deg);
 	 position: left;
+
 
 }
 
@@ -63,8 +75,7 @@ h4 {
 font-family: 'Playfair-Display', serif;
 	font-size:3.157em;
 	color: #DDCAF4;
-	margin:left;
-	position: left;
+	
 }
 .section {
 	background-color: #FFFECB;
