@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Design System</title>
+     <link href="../../CSS/reset.css" rel="stylesheet" type="text/css">
+	<link href="../../CSS/design-system.css" rel="stylesheet" type="text/css">
+</head>
+  <main>
+	<div id="ds-container">
+   <div id="right-sidebar"> <div> 
+        <h3 class="section-label">Adjustments</h3>
+        <div>
+        <label>Change Background</label>
+        <button class="button2" type="button" onclick="changeBodyBg('#dcf2ce');">WF Pale Green</button>
+        <button class="button2"type="button" onclick="changeBodyBg('#86b06b');">WF Medium Green</button>
+        <button class="button2"type="button" onclick="changeBodyBg('#245708');">WF Deep Green</button>
+        <button class="button2"type="button" onclick="changeBodyBg('#FFF');">White</button>
+
+    </div>
+    <br>
+    <div>
+        <label>Change Heading text color</label>
+        <button class="button2"type="button" onclick="changeHeaderColor('#dcf2ce');">WF Pale Green</button>
+        <button class="button2"type="button" onclick="changeHeaderColor('#86b06b');">WF Medium Green</button>
+        <button class="button2"type="button" onclick="changeHeaderColor('#245708');">WF Deep Green</button>
+        <button class="button2"type="button" onclick="changeHeaderColor('#FFF');">White</button>
+
+    </div>
+      <div>
+        <label>Change Section Background</label>
+        <button class="button2"type="button" onclick="changeSectionBG('#dcf2ce');">WF Pale Green</button>
+        <button class="button2"type="button" onclick="changeSectionBG('#86b06b');">WF Medium Green</button>
+        <button class="button2"type="button" onclick="changeSectionBG('#245708');">WF Deep Green</button>
+        <button class="button2"type="button" onclick="changeSectionBG('#fff');">White</button>
+
+    </div></div></div>
+     
+     <section id="section">
+	<div><h1>Soft Structure</h1>
+      <h6>Design principles</h6>
+      
+      <p>Softness and simplicity can build a structure stronger than one built from complexity.</p>
+      <p>Work speaks boldy, but that does not mean it cannot be told in a bautiful way.</p>
+      <p>Straying away from busyness and the unnecessary is essential, in order for words to be appreciated and not overwhelmed.</p>
+      <p>Communication is clear, but fun.</p>
+      </div><br><br>
+	<div>
+      
+        
+        <h3 class="section-label">Styles</h3>
+        <h6 class="section-break">Typography</h6>
+        <h1 id="reversedance" class="header">H1 headline</h1>
+        <h2 id="dance"class="header">H2 headline</h2>
+        <h3 id="reversedance"class="header">H3 headline</h3>
+        <h4 id="dance"class="header">H4 headline</h4>
+        <h5 id="reversedance"class="header">H5 headline</h5>
+        <br> <br><br>
+        <p>This is what body copy looks like. It is important that is is well recieved and not too crowded. It fits the space, but is easily read.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+         <br><br><br><br><br><h6>Colors</h6> <div class="section-break">
+        
+        <div class="primary-hue color-gray"><div>Pale Green</div><div>#dcf2ce<br></div></div>
+        <div class="third-hue color-medium-brown"><div>Medium Green</div><div>#86b06b<br></div></div>
+        <div class="secondary-hue color-deep-brown"><div>Deep Green</div><div>#245708<br></div></div>
+        <div class=""><div></div><div><br><br></div><br><br></div>
+
+  		</div>
+  		
+  		<div>
+        <h3 class="section-label">Components</h3>
+        <div class="component-group">
+          <article>
+            <button class="button button1">Primary</button></article>
+           <article> <button class="button button2">Secondary</button></article>
+            <article><button class="button button3">Disabled</button></article>
+       
+        <article><div> <form>
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="fname"></article>
+          <article> <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lname">
+          </form>
+        </article>
+        <article><div class="cg-3"> <div class="dropdown">
+          <button class="dropbtn">Dropdown</button>
+           <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+             </article>
+        
+         <article> <div>  <label class="switch">
+            <input type="checkbox" checked>
+            <span class="slider round"></span></label>
+            </label>
+        </div></article>
+        <article><div>  <input type="date" class="pointer" id="start" name="trip-start"
+       value="2020-02-21"
+       min="2018-01-01" max="2020-11-07"> </article>
+       <div> <article class="loader"> </div>
+          <br></article>
+         <article> <div>  <label class="radio-button radio-button--material">
+  <input type="radio" class="radio-button__input radio-button--material__input" name="r" checked="checked">
+  <div class="radio-button__checkmark radio-button--material__checkmark"></div>
+  Label
+</label>
+<label class="radio-button radio-button--material">
+  <input type="radio" class="radio-button__input radio-button--material__input" name="r">
+  <div class="radio-button__checkmark radio-button--material__checkmark"></div>
+  Label
+</label>
+<label class="radio-button radio-button--material">
+  <input type="radio" class="radio-button__input radio-button--material__input" name="s" disabled checked>
+  <div class="radio-button__checkmark radio-button--material__checkmark"></div>
+  Label
+</label>
+<label class="radio-button radio-button--material">
+  <input type="radio" class="radio-button__input radio-button--material__input" name="s" disabled>
+  <div class="radio-button__checkmark radio-button--material__checkmark"></div>
+  Label
+</label> </div></article></div></div><br><br>
+        
+
+    
+ <div>
+        <h3 class="section-label">Design Patterns</h3>
+        <div class="design-patterns-group">
+          <article> 
+            <h6>Profile Card</h6>
+            <div class="profile-card">
+                <img src="https://cdn.glitch.com/d1a22133-f9dd-4d79-b8be-424652df79d6%2Fhead-shots-for-kids-new-york-daisy-beatty(pp_w768_h915).jpg?v=1583336487774">
+                <h5 class="profile-name text-white">Diane Smith</h5>
+                <p class="title text-white">Campaign Supervisor</p>
+                <p class="text-white">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                <button class="button button1">Contact Diane</button>
+
+              </div>
+
+          </article>
+<article>
+              <h6>Sign up form</h6>
+              <form action="/action_page.php">
+                  <div class="card-image">
+    <p>Please fill in this form to create an account.</p>
+    <hr>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input class="input" type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
+
+    <div class="clearfix">
+      <button type="button" class="button button1">Cancel</button>
+      <button type="submit" class="button button1"">Sign Up</button>
+    </div>
+  </div>
+</form>
+<br>
+            </article>
+        </div>
+        <article>
+          <br>
+              <h6>Card with image</h6>
+              <div class="card-image">
+                <img src="https://cdn.glitch.com/d1a22133-f9dd-4d79-b8be-424652df79d6%2F20-3-large.jpg?v=1583338150131" />
+                <h5>This is the card headline</h5>
+                <p>Curabitur blandit tempus porttitor. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+
+<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada magna mollis euismod. Vestibulum id ligula porta felis euismod semper.</p>
+              </div>
+            </article>
+            
+      </div>
+   
+     <div> 
+        <h3 class="section-label">Regions</h3>
+        <p>TK</p>
+      </div>
+      <div> 
+        <h3 class="section-label">Content</h3>
+        <p>TK</p>
+      </div>
+        <div>
+        <h3 class="section-label">Layout</h3>
+        <p>TK</p>
+     </div>
+       <div>
+        <h3 class="section-label">Usability</h3>
+        <p>TK</p>
+      </div>
+ 
+    </div>
+    
+	</div></div> </section>
+  </main>
+
+
+
+
+
+  </body>
+     <script type="text/javascript" src="../../js/javascript.js"></script>
+</html>
