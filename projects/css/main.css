@@ -1,0 +1,91 @@
+@media screen and (max-width: 479px) {
+  .back {
+    position: absolute;
+    left: 0%;
+    top: 10%;
+    right: auto;
+    bottom: auto;
+    width: 100%;
+    height: 33%;
+  }
+  .chooseingre {
+    position: absolute;
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: -17%;
+    width: 100%;
+    height: 32%;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+  .saved-recipes {
+    position: absolute;
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: 23%;
+    width: 100%;
+    height: 30%;
+    padding-bottom: 0px;
+  }
+  .link-block-4 {
+    position: absolute;
+    left: auto;
+    top: -1%;
+    right: 0%;
+    bottom: auto;
+    height: 35px;
+  }
+  .heading {
+    font-family: 'Avenirltstd book', sans-serif;
+    color: #c91a44;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .button {
+    position: absolute;
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: -8%;
+    margin: 20px 60px 276px;
+    border-radius: 20px;
+    background-color: #c91a44;
+    text-align: center;
+  }
+  .menu {
+    position: absolute;
+    left: auto;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+  }
+  .menusaved {
+    position: absolute;
+    left: auto;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+  }
+}
+
+@font-face {
+  font-family: 'Avenirltstd book';
+  src: url('../fonts/AvenirLTStd-Book.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Avenirltstd roman';
+  src: url('../fonts/AvenirLTStd-Roman.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Avenirltstd';
+  src: url('../fonts/AvenirLTStd-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
